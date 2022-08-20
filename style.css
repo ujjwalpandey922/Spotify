@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap'); */
+
+body{
+    background-color: whitesmoke;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+}
+nav{
+    font-family: 'Water Brush', cursive;
+}
+nav ul{
+    display: flex; /*in one line*/
+    list-style-type: none; /*no dots*/
+    align-items: center;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 10px ;
+}
+.brand img{
+    height: 35px;
+    padding: 0 3px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 73vh;
+    width: 70%;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 20px auto;
+    padding: 0 5px;
+    border-radius: 15px;
+    /* pic in div container  */
+    background-image: url('wall2.jpg');
+    background-size: cover;
+    
+}
+
+.bottom{
+    position: sticky;
+     bottom: 0; /* fix at bottom  */
+    height: 100px;
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.icons{
+    margin: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progbar{
+    width:80vw; 
+    cursor: pointer;
+}
+.songItem{
+    background-color: white;
+    height: 40px;
+    /* width: 110%; */
+    margin: 10px 0;
+    color: black;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    font-family: 'Water Brush', cursive;
+}
+.songItem img{
+   width: 40px;
+   margin: 0 10px;
+   border-radius: 100px;
+}
+.songlistplay i{
+    cursor: pointer;
+}
+.songlistnum{
+    margin-top: 40px;
+    /* background-color: blue; */
+    height: 80vh;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+      display: flex;
+    font-family: 'Water Brush', cursive;
+    /* background-color: blanchedalmond; */
+}
+.songinfo img{
+  
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+/* .songinfo span{
+    display: flex;
+} */
